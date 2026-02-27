@@ -1,0 +1,40 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+<title>Invitation</title>
+    </head>
+    <body>
+        <nav>
+        <a href="Html_Home.html">Home</a>|
+        <a href="HTML_About.html">About</a>|
+        <a href="HTML_Contact.html">Contact</a>|
+    </nav>
+        <h1>Welcome To Our Alumini Meet</h1>
+         <h2> Rejoise and Reconnect</h2>
+         <h3><pre><strong>
+            Alumini Meet-2025
+                  on
+              01-03-2025, 10.30AM</strong>
+                 </pre></h3>
+         <div>
+         <p><span style="border:1px red";>
+            Dear Alumini's Let's catch up the old times and walk down the memory lane.
+           <img src="Images/nature.jfif"> </span>We Cordially Invite You To<strong>!!!</strong></p>
+   <hr>
+   <address>SMR Auditorium</address></div>
+    
+    <div>
+        <h3>Image</h3>
+        <figure>
+        <img src="Images/images.jfif",alt=sample>
+<figcaption>Fig.1 Nature</figcaption>
+
+        </figure>
+    </div>
+    <br>
+    <footer>
+        <p>&copy;This is a footer Page</p>
+    </footer>
+
+        </body>
+</html>

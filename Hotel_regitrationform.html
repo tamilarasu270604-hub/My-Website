@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hotel Registeration</title>
+<style>
+    .fieldset{
+        padding-left: 35%;
+         font-size: medium;
+        display:inline-flex;
+    }
+    .form{
+        background-color: rgb(201, 200, 198);
+    }
+    .align{
+        text-align: center;
+       
+    }
+</style>
+    </head>
+    <body  class="fieldset">
+        <form>
+        <fieldset class="form">
+            <legend style="text-align: center;font-size: larger;">Hotel Register Form</legend>
+            <label for="Name">Full Name:</label>
+            <input type="text"id="Name"name="Name"value="" placeholder="Enter Your FullName" required>
+            <br><br>
+            <label for="DOB">Date Of Birth:</label>
+            <input type="date" id="DOB" name="DOB" value="" required><br>
+            <br>
+            <label for="Nationality">Nationality:</label>
+            <input type="text" id="Nationality" name="Nationality" value="" placeholder="Enter Your Nationality" required>
+              <br><br><label for="Id">ID Number:</label>
+              <input type="number"id="Id"name="Id"value="" placeholder="Enter Your FullName" required> <br><br>
+        <label for="file">Upload ID:</label>
+            <input type="file" id="file" name="file" value="" placeholder="Choose a File"  required><br>
+            <br>
+     <label for="Phone">Phone Number:</label>
+            <input type="date" id="DOB" name="DOB" value="" placeholder="Enter Your 10 Digit Number" required><br>
+            <br>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" placeholder="Enter a Email" required><br><br>
+            <label for="Room">Room Type:
+                <input type="radio" id="Single " name="Gender" value="Male"   >Single
+                <input type="radio" id="Double" name="Gender" value="Female">Double
+                <input type="radio" id="Suite" name="Gender" value="Others">Suite
+                <input type="radio" id="Suite" name="Gender" value="Others">Deluxe
+                </label><br><br>
+                <label for="Hobies">Payment Method:
+                    <select id="Payment Method" name="Payment Method">
+                        <option value="Choose">--select--</option>
+                        <option value="Cash">Cash</option>
+                        <option value="Online Payment">Online Payment</option>
+                        <option value="Debit card">Debit card</option><br><br></select><br><br>
+                        <label for="Check-in Date">Check-in Date:</label>
+                        <input type="date" min="2026-03-03" id="Check-in Date" name="Check-in Date" value="">
+                        <br><br> <label for="Address">Address :</label>
+            <textarea rows="5" id="Address" name="Address" placeholder="Enter Your Address" required  cols="50"></textarea>
+        <section class="align">
+                <br><b><input type="button" value="Register" >
+                <input type="button" value="Clear"></b></section></fieldset>
+    </form></body>
+</html>

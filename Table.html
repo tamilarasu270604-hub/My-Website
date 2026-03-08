@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1,h2{
+        text-align: center;
+        color: whitesmoke;
+        background-color: darkblue;
+    }
+    table{
+        border-collapse: collapse;
+        font-size: 20px;
+        width: 60%;
+        margin: 5% auto;
+        height: 30vh;
+        
+        
+    }
+    td,th{
+        font-size: 21   px;
+        color: rgb(22, 18, 18);
+        text-align: center;
+    }
+    tr{
+        font-size: 18px;
+        background-color: cornsilk;
+        text-align: center;
+        border-spacing:100%; 
+        color: brown;
+        
+    }
+    table.spacing{
+        border-collapse: separate;
+        border-spacing:  30px;
+       
+
+    }
+
+</style>    
+       
+</head>
+<body>
+    <h1 >Points  Table</h1>
+
+    <h2>Team A</h2>
+    <table border="2" >
+       <tr>
+          <th >Team</th>
+            <th>Matchas</th>
+      <th>Won</th>
+      <th>Lose</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>4</td>
+            <td>4</td>
+             <td>0</td>
+            <td>8 Points</td>
+        </tr>
+        <tr>
+            <td>Softh Affrica</td>
+            <td>4</td>
+            <td>4</td>
+            <td>0</td>
+            <td>8 Points</td>
+        </tr>
+        <tr>
+            <td>Newzland</td>
+            <td>4</td>
+            <td>3</td>
+             <td>1</td>
+            <td>6 Points</td>
+        </tr>
+        <tr>
+            <td>Australia</td>
+            <td>5</td>
+            <td>3</td>
+             <td>2</td>
+            <td>6 Points</td>
+        </tr>
+    </table>
+    <h2>Spacing</h2>
+    <table class="spacing" >
+        <th >Team</th>
+            <th>Matchas</th>
+            <tr>
+      <td>Won</td>
+      <td>Lose</td>
+           
+            </tr>
+    </table>
+   <table class="tblColSpan" border="2">
+    <h2>Row & colspan</h2>
+    <tr>
+        <th colspan="2">Team & Matches</th>
+        <th>won</th>
+        <th>lose</th>
+        <th>points</th>
+    </tr>
+    <tr>
+        <td>India</td>
+        <td>4</td>
+        <td>4</td>
+        <td>0</td>
+        <td>8 points</td>
+    </tr>
+    <tr>
+        
+    </tr>
+   </table>
+   <table class="tblrowspan" border="2px">
+    <tr>
+        <th rowspan="4">Semifinal Teams</th>
+        <td>India</td>
+        
+    </tr>
+    <tr><td>Newzland</td></tr>
+    <tr><td>England</td></tr>
+    <tr><td>South Affrica</td></tr>
+
+    <tr>
+        <th colspan="2">Final Teams</th>
+       
+    </tr>
+    <tr><td>India</td>
+     <td>Newzland</td></tr>
+   </table> 
+
+   
+   </body>
+</html>
